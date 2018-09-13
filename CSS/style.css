@@ -15,20 +15,20 @@ body {
 }
 
 .header {
-    background-color: green; 
+    background-color: #3DC46A; 
     grid-column: 1 / -1;  
     text-align: center; 
 }
 
 .menu {
-    background-color : #3E6B4F; 
+    background-color : #87EB9E;   
 }
 
 .content {
-    background-color : #3E6B4F; 
+    background-color : #63E0B8; 
 }
 
 .footer { 
-    background-color : green; 
+    background-color : #3DC46A; 
     grid-column: 1 / -1; 
 }
