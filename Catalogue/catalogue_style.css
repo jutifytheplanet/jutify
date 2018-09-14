@@ -1,51 +1,49 @@
 
-
-body {
-    background-color: #A3EC9C; 
+html, body {
+    background-color: #A3EC9C;
+    margin: 10px;
 }
 
-.container {
-    display: grid; 
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 50px auto 50px;
-    grid-gap: 5px; 
-    margin-left: 100px;
-    margin-right: 100px;
-
+.sidebags > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #A3EC9C;
 }
 
-.header {
-    background-color: #3DC46A; 
-    grid-column: 1 / -1;  
-    text-align: center; 
-}
-
-.menu {
-    background-color : #87EB9E;   
-}
-
-.content {
-    background-color : #63E0B8; 
-}
-
-.footer { 
-    background-color : #3DC46A; 
-    grid-column: 1 / -1; 
-}
-
-.catalogue{
-    display: grid; 
-    grid-gap: 5px; 
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+.sidebags > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .sidebags{
+    display: grid; 
+    grid-gap: 5px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
     
 }
 
+.bags > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #A3EC9C;
+}
+
+.bags > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .bags{
+    display: grid; 
+    grid-gap: 5px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
 
 }
