@@ -6,7 +6,7 @@ body {
 
 .container {
     display: grid; 
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px auto 50px;
     grid-gap: 5px; 
     margin-left: 100px;
@@ -20,12 +20,11 @@ body {
     text-align: center; 
 }
 
-.menu {
-    background-color : #87EB9E;   
-}
-
 .content {
-    background-color : #63E0B8; 
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    background-color : white; 
 }
 
 .footer { 
@@ -33,19 +32,3 @@ body {
     grid-column: 1 / -1; 
 }
 
-.catalogue{
-    display: grid; 
-    grid-gap: 5px; 
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.sidebags{
-    
-}
-
-.bags{
-
-}
