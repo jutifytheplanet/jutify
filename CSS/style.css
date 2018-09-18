@@ -1,7 +1,11 @@
 
 
 body {
-    background-color: #A3EC9C; 
+    background-image: url(background/home_1.jpeg), url(background/home_2.jpeg), url(background/home_3.jpeg), url(background/home_4.jpeg), url(background/home_5.jpeg), url(background/home_6.jpeg);
+    background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0% 0%, 20% 20%, 40% 40%, 60% 60%, 80% 80%, 100% 100%;
+    background-size: 1000px, 1000px, 1000px, 1000px, 1000px, 1000px;
+    
 }
 
 .container {
@@ -21,7 +25,8 @@ body {
 }
 
 .content {
-    display: grid; 
+    display: grid;
+    opacity: 0.8; 
     grid-template-columns: 1fr;
     grid-gap: 5px;
     background-color : white; 
