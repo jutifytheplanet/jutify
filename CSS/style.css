@@ -42,6 +42,7 @@ body {
 .text {
     text-align: center; 
     font-family: 'Lucida Grande';
-    font-size: 12px;
+    font-size: 18px;
+    color: rgb(199, 67, 62);
 }
 
