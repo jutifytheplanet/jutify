@@ -27,7 +27,7 @@ body {
 .content {
     display: grid; 
     opacity: 0.8; 
-    grid-template-columns: repeat(auto, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     grid-template-rows: repeat(auto, minmax(200px, 1fr)); 
     grid-gap: 5px;
     background-color : white; 
@@ -42,6 +42,6 @@ body {
 .text {
     text-align: center; 
     font-family: 'Lucida Grande';
-    font-size: 12;
+    font-size: 10px;
 }
 
