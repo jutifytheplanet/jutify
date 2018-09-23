@@ -41,5 +41,7 @@ body {
 
 .text {
     text-align: center; 
+    font-family: 'Lucida Grande';
+    font-size: 12;
 }
 
